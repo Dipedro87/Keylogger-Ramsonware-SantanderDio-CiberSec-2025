@@ -35,6 +35,7 @@ Salva tudo em tempo real no arquivo log.txt.
 keylogger_em.py:
 Exfiltração via E-mail: Estende a funcionalidade básica integrando a biblioteca smtplib para envio de dados via protocolo SMTP.
 Ciclos de Reporte: Configurado para acumular as teclas e enviar o log por e-mail em intervalos regulares (ex: a cada 60 segundos), simulando o roubo ativo de credenciais.
+
 🚀 Passo a passo
 Pré-requisitos
 Instale as bibliotecas necessárias:
@@ -43,7 +44,6 @@ pip install cryptography pynput
 Simulando o Ransomware:
 Crie uma pasta de teste e coloque alguns arquivos de texto (.txt) dentro.
 
-image
 Execute o malware: python ransomware.py.
 
 py
